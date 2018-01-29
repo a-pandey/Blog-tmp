@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#FCA12B"/>
+    <meta rel="manifest" href="/manifest.json">
+    <meta name="description" content="Personal blog site of Amrit Pandey. Amrit Pandey is a code enthusiast and software developer." />
+
+    <meta property="og:title" content="Spanit.xyz" />
+    <meta property="og:url" content="http://spanit.xyz/" />
+    <meta property="og:description" content="Personal blog site of Amrit Pandey. Amrit Pandey is a code enthusiast and software developer.">
+
+    <title>spanit.xyz | Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+
+            <div class="header-logo">
+                <a href="/" class="brand">
+                    <img src="/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="collapse-btn" id="collapse-btn">
+                <a href="#">
+                    <img src="/src/img/ham-btn-icon.svg" alt="">
+                </a>
+            </div>
+
+            <nav class="main-nav" id="main-nav" data-function="router">
+                <a href="/blog" class="nav-item">Blog</a>
+                <a href="/portfolio" class="nav-item">Portfolio</a>
+                <a href="/about" class="nav-item">About</a>
+                <a href="/contact" class="nav-item selected">Contact</a>
+            </nav>
+
+        </header>
+
+
+        <div class="contact" id="contact">
+            <div class="panel">Contact</div>
+            <div class="details">
+                <p>I love to talk to people about my work,
+                    and recieve their suggestions on them.
+                    You can always find me on <a href="https://twitter.com/amritpandeyy">twitter</a>.
+                </p>
+                <h3>Send Hello on twitter!</h3>
+                <div class="tweet-box">
+                    <textarea name="tweet-msg" id="tweet-msg" placeholder="Hey @amritpandeyy ..."></textarea>
+                    <a href="https://twitter.com/intent/tweet?text=Hey%20@amritpandeyy%20..." id="send-tweet">Send</a>
+                </div>
+                <h3>Connect with me on other places</h3>
+                <div class="social-icons">
+                    <a href="https://twitter.com/amritpandeyy" target="_blank">
+                        <img src="/src/img/twitter.svg" alt="Twitter" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/amrit-pandey-753385142/" target="_blank">
+                        <img src="/src/img/linkedin.svg" alt="LinkedIn" />
+                    </a>
+                    <a href="https://instagram.com/amritpandeyy" target="_blank">
+                        <img src="/src/img/instagram.svg" alt="Instagram" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        <div class="author-note">
+            Made by <a href="https://twitter.com/amritpandeyy">@amritpandeyy</a><br>
+            Copyrights &copy; <div class="footer-date"></div> Amrit Pandey
+        </div>
+        <div class="social-access">
+            <a href="https://github.com/a-pandey" class="access">
+                <img src="/src/img/github-icon.svg" alt="">
+            </a>
+            <a href="https://twitter.com/amritpandeyy" class="access">
+                <img src="/src/img/twitter-icon.svg" alt="">
+            </a>
+        </div>
+    </footer>
+
+    <script src="/src/scripts/jquery.min.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "short-name":"spanit.xyz",
+    "name": "spanit.xyz",
+    "description": "Personal Blog/Portfolio site of Amrit Pandey",
+    "version": "1.0",
+    "manifest_version": 1,
+    "icons": {
+      "logo": "logo.png",
+      "favicon": "favicon.png"
+    },
+    "start_url": "/"
+}

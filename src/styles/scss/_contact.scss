@@ -1,0 +1,68 @@
+.contact{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    .panel{
+        @extend %panel;
+    }
+    .details{
+        padding: 1rem;
+        background: #fefefe;
+        p{
+            font-size: 1.1rem;
+        }
+        a{
+            text-decoration: none;
+            font-weight: 600;
+            color: $prime-color;
+        }
+        .tweet-box{
+            width: 100%;
+            textarea{
+                font-size: 1rem;
+                line-height: 1.5;
+                padding: 0.5rem 1rem;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                width: 100%;
+                min-height: 100px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            }
+            #send-tweet{
+                display: inline-block;
+                margin-top: 10px;
+                padding: 0.5rem 0.85rem;
+                font-size: 1.1rem;
+                border-radius: 25px;
+                background: #64b2f8;
+                text-decoration: none;
+                color: $text-color-inverse;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            }
+        }
+        .social-icons{
+            text-align: center;
+            a{
+                display: inline-block;
+                border-radius: 50%;
+                img{
+                    display: block;
+                    width: 80px;
+                    height: 80px;
+                    padding: 0.6rem;
+                }
+                &:hover{
+                    background: lighten($color: $prime-color, $amount: 15%);
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 720px){
+        margin: 2rem auto;
+        border: 1px solid #d2d2d2;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    @media only screen and (min-width: 960px){
+        max-width: 860px;
+    }
+}

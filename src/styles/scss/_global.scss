@@ -1,0 +1,89 @@
+/*
+  /////////////////////// RESET STYLES ///////////////////////
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #f1f1f1;
+  color: $text-color;
+}
+
+a{
+  color: $prime-color;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  tr{
+    &:nth-child(odd){
+      background: #f1f1f1;
+    }
+    &:hover{
+      background: #ddd;
+    }
+    th,td{
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    th{
+      background: $prime-color;
+      color: $text-color-inverse;
+      text-align: left;
+      text-transform: uppercase;
+    }
+    tr{
+
+    }
+  }
+}
+
+/*Default Heading Tag font spacing override.
+Original Code: https://codepen.io/amritpandey/pen/NwJxBw
+@author: amritpandey
+*/
+
+$max_font_size : 46px;
+$base_font_size : 12px;
+@media only screen and (min-width: 840px){
+  $max_font_size : 50px;
+}
+
+@for $i from 1 through 6{
+  h#{$i}:not(.original){
+    font-weight: 600;
+    font-size: $max_font_size - $base_font_size*(0.5*$i);
+    margin: 0.4rem*$i 0;
+  }
+}
+
+/* //////////////////////////////////////////////// */
+
+.wrapper{
+  min-height: calc(100vh - 120px);
+}
+
+.btn{
+  @extend %btn;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+header{
+  /*Header(Parent) styles*/
+  width: 100%;
+  max-width: 2160px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fefefe;
+  border-bottom: 1px solid #d7d7d7;
+  /*  --  */
+
+  .header-logo{
+    min-width: 155px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    .brand{
+      text-decoration: none;
+      color: $prime-color;
+      img{
+        padding-top: 0.5rem;
+        width: 150px;
+      }
+      font:{
+        size: 1.4rem;
+        weight: 700;
+      }
+    }
+  }
+
+  .collapse-btn{
+    //display: none;
+    padding: 1rem 1.3rem;
+    border: solid #d7d7d7;
+    border-width: 0 0 0 1px;
+    margin-left: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-nav{
+    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    .nav-item{
+      //flex: 100%;
+      flex: 100%;
+      text-align: center;
+      padding: 1rem;
+      border: solid #eee;
+      border-width: 0 0 1px 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #444;
+      transition: 0.15s;
+    }
+  }
+
+  .toggle-nav{
+    display: flex;
+  }
+
+  @media only screen and (min-width: 540px){
+
+    height: 120px;
+
+    .header-logo{
+      height: 100%;
+      padding-left: 0;
+      justify-content: center;
+      border: solid #f7f7f7;
+      border-width: 0 0 1px 0;
+      //background: $prime-color;
+      //.brand{
+      //  color: #f9f9f9;
+      //}
+    }
+
+    .collapse-btn{
+      display: none;
+    }
+
+    .main-nav{
+      display: flex;
+      flex: 1 0 50%;
+      .nav-item{
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          background: #f7f7f7;
+        }
+        &.selected{
+          background: #f7f7f7;
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 720px){
+
+    .header-logo{
+      min-width: 280px;
+      .brand{
+        font-weight: 500;
+        font-size: 2rem;
+      }
+    }
+
+    .main-nav{
+      flex-wrap: nowrap;
+      .nav-item{
+        flex: 100%;
+      }
+    }
+  }
+}
