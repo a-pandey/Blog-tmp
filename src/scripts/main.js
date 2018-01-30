@@ -32,7 +32,7 @@
         htmlChunck += '</h3><div class="description">';
         htmlChunck += article['description'];
         htmlChunck += '</div><a class="read-btn" href="/blog/posts/'+article['link']+'">Read More</a>';
-        htmlChunck += '</li>';
+        htmlChunck += '<div class="date">' + article['date'] + '</div></li>';
 
         var entry = '<tr>';
         entry += '<td><a href="/blog/posts/' + article['link'] + '">' + article['heading'] + '</a></td>';
