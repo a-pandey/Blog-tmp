@@ -2,4 +2,5 @@
 CNAME
 profile-photo.jpg
 default.jpg
-posts/january18
+posts
+.sass-cache
