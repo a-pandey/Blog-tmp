@@ -92,10 +92,10 @@ header{
         justify-content: center;
         align-items: center;
         &:hover{
-          background: #f7f7f7;
+          background: lighten($color: $prime-color, $amount: 35%);
         }
         &.selected{
-          background: #f7f7f7;
+          background: lighten($color: $prime-color, $amount: 35%);
         }
       }
     }
