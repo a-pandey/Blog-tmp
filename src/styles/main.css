@@ -1,22 +1,22 @@
 .btn, .posts .list .post .read-btn {
   text-decoration: none;
   color: #444;
-  border: 1.5px solid #a82bfc;
+  border: 1.5px solid #FCA12B;
   padding: 0.8rem 1rem;
   margin: 0 0.5rem;
   background: #fefefe; }
   .btn:hover, .posts .list .post .read-btn:hover {
-    background: #a82bfc;
+    background: #FCA12B;
     color: #fefefe; }
   .wide.btn, .posts .list .post .wide.read-btn {
-    background: #a82bfc;
+    background: #FCA12B;
     color: #fefefe;
     display: block;
     font-size: 1.1rem;
     margin: 0 0 1rem 0; }
 
 .about .panel, .portfolio .panel, .contact .panel {
-  background: #a82bfc;
+  background: #FCA12B;
   color: #f9f9f9;
   font-size: 1.3rem;
   font-weight: 600;
@@ -37,7 +37,7 @@ body {
   color: #444; }
 
 a {
-  color: #a82bfc;
+  color: #FCA12B;
   text-decoration: none;
   font-weight: 600; }
 
@@ -52,7 +52,7 @@ table {
     padding: 8px;
     border: 1px solid #ddd; }
   table tr th {
-    background: #a82bfc;
+    background: #FCA12B;
     color: #fefefe;
     text-align: left;
     text-transform: uppercase; }
@@ -63,7 +63,7 @@ Original Code: https://codepen.io/amritpandey/pen/NwJxBw
 */
 h1:not(.original) {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 38px;
   margin: 0.4rem 0; }
 
 h2:not(.original) {
@@ -73,22 +73,22 @@ h2:not(.original) {
 
 h3:not(.original) {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 30px;
   margin: 1.2rem 0; }
 
 h4:not(.original) {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 26px;
   margin: 1.6rem 0; }
 
 h5:not(.original) {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 22px;
   margin: 2rem 0; }
 
 h6:not(.original) {
   font-weight: 600;
-  font-size: 10px;
+  font-size: 18px;
   margin: 2.4rem 0; }
 
 /* //////////////////////////////////////////////// */
@@ -119,11 +119,11 @@ header {
     padding-left: 1.5rem; }
     header .header-logo .brand {
       text-decoration: none;
-      color: #a82bfc;
+      color: #FCA12B;
       font-size: 1.4rem;
       font-weight: 700; }
       header .header-logo .brand img {
-        padding-top: 0.5rem;
+        padding: 0.5rem 0.6rem 0 0.6rem;
         width: 150px; }
   header .collapse-btn {
     padding: 1rem 1.3rem;
@@ -197,9 +197,9 @@ header {
               -ms-flex-align: center;
                   align-items: center; }
           header .main-nav .nav-item:hover {
-            background: #f7f7f7; }
+            background: #feefdb; }
           header .main-nav .nav-item.selected {
-            background: #f7f7f7; } }
+            background: #feefdb; } }
   @media only screen and (min-width: 720px) {
     header .header-logo {
       min-width: 280px; }
@@ -266,7 +266,7 @@ header {
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        border: 5px solid #dca9fe; }
+        border: 5px solid #fed9a9; }
     .about .summary p {
       font-size: 1.1rem;
       font-weight: 400;
@@ -278,12 +278,12 @@ header {
       .about .summary .actions-btn .action {
         text-decoration: none;
         color: #444;
-        border: 1.5px solid #a82bfc;
+        border: 1.5px solid #FCA12B;
         padding: 0.8rem 1rem;
         margin: 0 0.5rem;
         background: #fefefe; }
         .about .summary .actions-btn .action:hover {
-          background: #a82bfc;
+          background: #FCA12B;
           color: #fefefe; }
   @media only screen and (min-width: 720px) {
     .about {
@@ -314,13 +314,10 @@ header {
   background: #fefefe;
   padding: 1.5rem;
   color: #444;
-  font-size: 19px; }
-  .article .title {
-    color: #2b2b2b; }
-    .article .title h1 {
-      margin-top: 0; }
-  .article .subtitle {
-    color: #2b2b2b; }
+  font-size: 19px;
+  color: #444; }
+  .article .title h1 {
+    margin-top: 0; }
   .article .image {
     width: 100%;
     background: #ddd;
@@ -333,18 +330,18 @@ header {
       font-weight: 600; }
   .article p {
     color: #444;
-    line-height: 1.6;
-    font-family: 'PT Serif', Serif; }
+    line-height: 1.75;
+    font-family: "Lora", "Times New Roman", Times, serif; }
   .article ul {
-    font-family: 'PT Serif', serif; }
+    font-family: "Lora", "Times New Roman", Times, serif; }
     .article ul li {
-      line-height: 1.6;
-      margin-bottom: 0.5rem; }
+      line-height: 1.75;
+      margin-bottom: 0.8rem; }
   .article blockquote {
-    max-width: 540px;
+    max-width: 720px;
     margin: 1rem 0;
     padding: 0.5rem 0 0.5rem 1.5rem;
-    border-left: 5px solid #c776fd;
+    border-left: 5px solid #fdc276;
     font-style: italic;
     font-size: 1.2rem;
     font-weight: 400;
@@ -377,9 +374,9 @@ header {
       border-width: 0 1px 1px 0;
       font-weight: 600; }
       .portfolio nav .nav-item:hover {
-        background: #f0dbfe; }
+        background: #feefdb; }
       .portfolio nav .nav-item.selected {
-        background: #f0dbfe; }
+        background: #feefdb; }
   .portfolio .content {
     padding: 0 1rem 1rem 1rem; }
     .portfolio .content h3 {
@@ -387,7 +384,7 @@ header {
     .portfolio .content a {
       text-decoration: none;
       font-weight: 600;
-      color: #a82bfc; }
+      color: #FCA12B; }
     .portfolio .content p {
       font-size: 1.1rem;
       margin-top: 0.5rem;
@@ -422,7 +419,7 @@ header {
     margin: 0.5rem 0 0 0; }
     .tile.recent-posts ul li {
       font-size: 1.1rem;
-      line-height: 1.6;
+      line-height: 1.45;
       margin-bottom: 0.5rem; }
   .tile.metadata .info {
     display: -webkit-box;
@@ -454,7 +451,7 @@ header {
     .tile.metadata .tags .tag {
       display: inline;
       font-size: 1.1rem;
-      background: #cd86fd;
+      background: #fdc986;
       color: #fff;
       font-weight: 600;
       text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
@@ -475,7 +472,7 @@ header {
   @media only screen and (min-width: 840px) {
     .tile {
       border: 1px solid #ddd;
-      border-top: 1rem solid #a82bfc; } }
+      border-top: 1rem solid #FCA12B; } }
 
 .posts .list {
   list-style: none;
@@ -485,7 +482,8 @@ header {
     padding: 1rem 1rem 1.5rem 1rem;
     background: #fefefe;
     margin: 1rem;
-    border: 1px solid #ddd; }
+    border: 1px solid #ddd;
+    position: relative; }
     .posts .list .post .heading {
       margin: 0 0 0.5rem 0; }
     .posts .list .post .description {
@@ -495,10 +493,20 @@ header {
     .posts .list .post .read-btn {
       padding: 0.5rem 0.75rem;
       margin: 0; }
+    .posts .list .post .date {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      padding: 0.2rem 0.3rem;
+      background: #FCA12B;
+      color: #fefefe;
+      font-weight: 600;
+      border: 1px solid #ddd;
+      border-width: 1px 0 0 1px; }
 @media only screen and (min-width: 840px) {
   .posts .list .post {
     margin: 0 0 1rem 0;
-    border-left: 1rem solid #a82bfc; } }
+    border-left: 1rem solid #FCA12B; } }
 
 .contact {
   width: 100%;
@@ -512,11 +520,12 @@ header {
     .contact .details a {
       text-decoration: none;
       font-weight: 600;
-      color: #a82bfc; }
+      color: #FCA12B; }
     .contact .details .tweet-box {
       width: 100%; }
       .contact .details .tweet-box textarea {
         font-size: 1rem;
+        font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
         line-height: 1.5;
         padding: 0.5rem 1rem;
         border: 1px solid #ddd;
@@ -547,7 +556,7 @@ header {
           height: 80px;
           padding: 0.6rem; }
         .contact .details .social-icons a:hover {
-          background: #c776fd; }
+          background: #fdc276; }
   @media only screen and (min-width: 720px) {
     .contact {
       margin: 2rem auto;
@@ -569,7 +578,7 @@ footer {
           align-items: center;
   height: 120px;
   padding: 0 2rem;
-  background: #a82bfc;
+  background: #FCA12B;
   color: #f9f9f9; }
   footer .author-note {
     font-size: 1.1rem;
