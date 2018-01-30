@@ -1,6 +1,5 @@
 var cacheName = 'shell-content';
 var filesToCache = [
-  '/',
   './index.html',
   './about/index.html',
   './portfolio/index.html',
