@@ -8,6 +8,7 @@
       background: #fefefe;
       margin: 1rem;
       border: 1px solid #ddd;
+      position: relative;
       .heading{
         margin: 0 0 0.5rem 0;
       }
@@ -20,6 +21,17 @@
         @extend %btn;
         padding: 0.5rem 0.75rem;
         margin: 0;
+      }
+      .date{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        padding: 0.2rem 0.3rem;
+        background: $prime-color;
+        color: $text-color-inverse;
+        font-weight: 600;
+        border: 1px solid #ddd;
+        border-width: 1px 0 0 1px;
       }
     }
   }
