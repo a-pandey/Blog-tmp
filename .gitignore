@@ -3,5 +3,5 @@ CNAME
 posts
 .sass-cache
 template
-
+*.xcf
 main.css
